@@ -86,13 +86,13 @@ margin-top: -455px;
 .albums { /*Container*/
 
 display: flex;
-gap: 20px; /* Distancia de cada imagem */
-top: 40px; /*Margens negativas funcionam enquanto o layout é simples.
-           Quando cresce (mais elementos), elas entram em conflito. */
+gap: 20px;
+top: 40px; 
+        
 
 }
 
-.album img { /* Tamanho das imagens */
+.album img { 
 
 width: 160px;
 
@@ -118,6 +118,3 @@ color: white;
 margin-top: 50px;
 
 }
-
-/*Elementos em block + margens negativas ainda fazem parte do fluxo.
-Eles só estão sendo empurrados de forma forçada. */
