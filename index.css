@@ -1,122 +1,98 @@
-header {
+.body {
 
-color: aliceblue;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-font-style: italic;
+background-color: rgb(167, 167, 167);
 
 }
 
-p {
+.first{
 
-display: block;
-margin-left: 180px;
-margin-right: 180px;
-color: white;
-    
-}
-
-h5 {
-
-color:aliceblue;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
 text-align: center;
-display: block;
 margin-top: 10px;
 
 }
 
-.GUNS {
+.title{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+
+}
+
+.second{
+
+text-align: center;
+
+}
+
+.UK img {
+
+    display: block;
+    margin: 0 auto; /*margin: auto só centraliza elementos com largura menor que o container */
+    width: 600px;   /*Nada centraliza com margin: auto se ocupar 100% da largura */
+    padding: 10px;
+
+}
+
+/* junção de uma tag inline com block; ela fica na mesma linha que outros elementos e não quebra a linha automaticamente. */
+
+
+p {
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text_1{
+
+margin-left: 50px;
+margin-right: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+
+}
+
+.text_2{
+
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+.spacing{
+
+letter-spacing: 2px;
+
+}
+
+.bigben img {
 
 display: block;
-margin-left: 300px;
+margin-top: -500px;
+margin-left: auto;
+width: 400px;
 
 }
 
-.AXL{
+/* PAGE 1 */
+
+.swit img {
 
 display: block;
-margin-top: -350px;
-margin-left: 800px;
+margin: 0 auto;
+height: 450px;
+width: 800px;
+box-shadow: 3px 3px 8px;
+}
+
+ul{
+
+color:black;
 
 }
 
-body {
+ol {
 
-background-color: black;
-
-}
-
-h3 {
-
-color: aliceblue;
+color: black;
 
 }
-
-.Band {
- 
-margin-top: 30px;
-margin-left: 300px;
-border-radius: 30px;
-
-}
-
-.Photo {
-
-margin-top:-320px;
-margin-left: 820px;
-
-}
-
-.Integrantes{
-
-display: block;
-margin-left: 300px;
-margin-top: 20px;
-
-}
-
-.axl-photo {
-
-display: block;
-margin-left: 920px ;
-margin-top: -455px;
-}
-
-.albums { /*Container*/
-
-display: flex;
-gap: 20px; /* Distancia de cada imagem */
-top: 40px;
-
-}
-
-.album img { /* Tamanho das imagens */
-
-width: 160px;
-
-}
-
-.GIF {
-
-display: block;
-margin-left: 1070px;
-margin-top: -300px;
-
-}
-
-li {
-
-color: white;
-    
-}
-
-footer {
-
-color: white;
-margin-top: 50px;
-
-}
-
-/*Elementos em block + margens negativas ainda fazem parte do fluxo.
-Eles só estão sendo empurrados de forma forçada. */
