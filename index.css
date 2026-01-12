@@ -1,0 +1,123 @@
+header {
+
+color: aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+font-style: italic;
+
+}
+
+p {
+
+display: block;
+margin-left: 180px;
+margin-right: 180px;
+color: white;
+    
+}
+
+h5 {
+
+color:aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+display: block;
+margin-top: 10px;
+
+}
+
+.GUNS {
+
+display: block;
+margin-left: 300px;
+
+}
+
+.AXL{
+
+display: block;
+margin-top: -350px;
+margin-left: 800px;
+
+}
+
+body {
+
+background-color: black;
+
+}
+
+h3 {
+
+color: aliceblue;
+
+}
+
+.Band {
+ 
+margin-top: 30px;
+margin-left: 300px;
+border-radius: 30px;
+
+}
+
+.Photo {
+
+margin-top:-320px;
+margin-left: 820px;
+
+}
+
+.Integrantes{
+
+display: block;
+margin-left: 300px;
+margin-top: 20px;
+
+}
+
+.axl-photo {
+
+display: block;
+margin-left: 920px ;
+margin-top: -455px;
+}
+
+.albums { /*Container*/
+
+display: flex;
+gap: 20px; /* Distancia de cada imagem */
+top: 40px; /*Margens negativas funcionam enquanto o layout é simples.
+           Quando cresce (mais elementos), elas entram em conflito. */
+
+}
+
+.album img { /* Tamanho das imagens */
+
+width: 160px;
+
+}
+
+.GIF {
+
+display: block;
+margin-left: 1070px;
+margin-top: -300px;
+
+}
+
+li {
+
+color: white;
+    
+}
+
+footer {
+
+color: white;
+margin-top: 50px;
+
+}
+
+/*Elementos em block + margens negativas ainda fazem parte do fluxo.
+Eles só estão sendo empurrados de forma forçada. */
